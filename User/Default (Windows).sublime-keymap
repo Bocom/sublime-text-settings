@@ -38,14 +38,7 @@
     { "keys": ["ctrl+u"], "command": "soft_undo" },
 
     // Font
-    {
-        "keys": ["ctrl+0"],
-        "command": "set_setting",
-        "args": {
-            "setting": "font_size",
-            "value": 12
-        }
-    },
+    { "keys": ["ctrl+0"], "command": "my_reset_font_size" },
     { "keys": ["ctrl++"], "command": "nothing" },
     { "keys": ["ctrl+="], "command": "nothing" },
     { "keys": ["ctrl+equals"], "command": "nothing" },
