@@ -1,0 +1,6 @@
+{
+    "default_config": {
+        "windows": "PowerShell Core",
+    },
+    "theme": "adaptive",
+}

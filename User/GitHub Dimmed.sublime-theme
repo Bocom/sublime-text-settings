@@ -1,0 +1,21 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+    "variables": {
+        "font_size": 14,
+        // "sidebarLabelForeground": "#c6ccd2",
+        // "sidebarLabelSelectedForeground": "#aab3bb"
+    },
+    "rules": [
+        {
+            "class": "sidebar_tree",
+            "row_padding": [14, 6],
+            "indent": 16,
+            "indent_offset": 0,
+        },
+        {
+            "class": "tab_control",
+            "attributes": ["dirty"],
+            "layer2.opacity": 1
+        },
+    ],
+}

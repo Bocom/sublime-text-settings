@@ -1,0 +1,25 @@
+// Settings in here override those in "LSP/LSP.sublime-settings"
+{
+	"clients": {
+		"rust-analyzer": {
+			"enabled": true,
+		},
+		"LSP-tailwindcss": {
+			"enabled": true,
+		},
+		"LSP-vue": {
+			"enabled": false,
+		},
+	},
+	"diagnostics_gutter_marker": "sign",
+	"diagnostics_panel_include_severity_level": 2,
+	"document_highlight_style": "underline",
+	"inhibit_snippet_completions": true,
+	"inhibit_word_completions": true,
+	"semantic_highlighting": true,
+	"show_code_lens": "phantom",
+	"show_diagnostics_count_in_view_status": true,
+	"show_diagnostics_panel_on_save": 0,
+	"show_diagnostics_severity_level": 4,
+	"show_references_in_quick_panel": false,
+}

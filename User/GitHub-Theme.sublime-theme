@@ -1,0 +1,18 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+    "variables": {
+        "font_size": 14,
+        // "tabHeight": 35,
+    },
+    "rules": [
+        {
+            "class": "sidebar_tree",
+            "row_padding": [20, 6],
+        },
+        {
+            "class": "tab_control",
+            "attributes": ["dirty"],
+            "layer2.opacity": 1
+        }
+    ],
+}

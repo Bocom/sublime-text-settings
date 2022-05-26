@@ -1,0 +1,57 @@
+{
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"ApacheConf",
+		"ColorHelper",
+		"Debugger",
+		"DiffTabs",
+		"Dockerfile Syntax Highlighting",
+		"DotENV",
+		"EditorConfig",
+		"FileIcons",
+		"FileIcons Mono",
+		"FileManager",
+		"Gettext",
+		"GitHub Theme",
+		"INI",
+		"JsPrettier",
+		"Laravel Blade Highlighter",
+		"LSP",
+		"LSP-dockerfile",
+		"LSP-intelephense",
+		"LSP-json",
+		"LSP-pyright",
+		"LSP-tailwindcss",
+		"LSP-typescript",
+		"LSP-volar",
+		"LSP-vue",
+		"nginx",
+		"Origami",
+		"Package Control",
+		"PackageDev",
+		"PowerShell",
+		"Rust Enhanced",
+		"Sass",
+		"SublimeLinter",
+		"SublimeLinter-phpcs",
+		"Tailwind CSS",
+		"Terminus",
+		"Terraform",
+		"TOML",
+		"Twig",
+		"Vue Syntax Highlight",
+	],
+	"in_process_packages":
+	[
+	],
+	"channels":
+	[
+		"https://packagecontrol.io/channel_v3.json",
+		"https://github.com/sublimelsp/LSP-tailwindcss"
+	],
+	"repositories":
+	[
+		"https://github.com/sublimelsp/LSP-tailwindcss"
+	],
+}

@@ -1,0 +1,4 @@
+{
+    "shell_cmd": "wp i18n make-mo $file",
+    "file_patterns": ["*.po"]
+}
