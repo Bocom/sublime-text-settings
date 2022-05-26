@@ -2,5 +2,26 @@
     "default_config": {
         "windows": "PowerShell Core",
     },
-    "theme": "adaptive",
+    "theme": "user",
+    "user_theme_colors":
+    {
+        "background": "#2e3440",
+        "foreground": "#d8dee9",
+        "black": "#3b4252", // black
+        "red": "#bf616a", // red
+        "green": "#a3be8c", // green
+        "brown": "#ebcb8b", // yellow/brown???
+        "blue": "#81a1c1", // blue
+        "magenta": "#b48ead", // purple/magenta
+        "cyan": "#88c0d0", // cyan
+        "white": "#e5e9f0", // white
+        "light_black": "#4c566a", // brightBlack/light_black
+        "light_red": "#bf616a", // brightRed/light_red
+        "light_green": "#a3be8c", // brightGreen/light_green
+        "light_brown": "#ebcb8b", // brightYellow/light_brown???
+        "light_blue": "#81a1c1", // brightBlue/light_blue
+        "light_magenta": "#b48ead", // brightPurple/light_magenta
+        "light_cyan": "#8fbcbb", // brightCyan/light_cyan
+        "light_white": "#eceff4" // brightWhite/light_white
+    }
 }

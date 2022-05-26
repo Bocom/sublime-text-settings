@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "Termiplus",
+        "children": [
+            {
+                "caption": "Open Panel Here",
+                "command": "termiplus_open",
+                "args": {
+                    "paths": [],
+                    "panel": true
+                }
+            },
+            {
+                "caption": "Open View Here",
+                "command": "termiplus_open",
+                "args": {
+                    "paths": [],
+                    "panel": false
+                }
+            },
+            {
+                "caption": "Add Shortcut",
+                "command": "termiplus_add_shortcut",
+                "args": {
+                    "paths": []
+                }
+            },
+        ]
+    },
+]

@@ -1,0 +1,8 @@
+{
+	"telemetry": false,
+	"uid": "7cb30455-10c3-4d02-90f5-d36aab85a467",
+	"syntax_scopes": {
+		"html": "text.html - source - meta.attribute-with-value.style | source.blade"
+	}
+	
+}

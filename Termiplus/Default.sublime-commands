@@ -1,0 +1,16 @@
+[
+    {
+        "caption": "Termiplus: Open Panel with Path from Project",
+        "command": "termiplus_open_project_path",
+        "args": {
+            "panel": true
+        }
+    },
+    {
+        "caption": "Termiplus: Open View with Path from Project",
+        "command": "termiplus_open_project_path",
+        "args": {
+            "panel": false
+        }
+    }
+]

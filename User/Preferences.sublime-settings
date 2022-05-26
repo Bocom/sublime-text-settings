@@ -1,52 +1,53 @@
 {
+    "added_words": [
+        "cacheable",
+    ],
 	"always_show_minimap_viewport": true,
     "auto_find_in_selection": true,
     "bold_folder_labels": false,
+    "caret_extra_width": 1,
     "caret_style": "smooth",
-	"color_scheme": "GitHub Dimmed.sublime-color-scheme",
-	"drag_text": false,
+    "color_scheme": "GitHub Dimmed.sublime-color-scheme",
+    "drag_text": false,
     "draw_minimap_border": true,
     "ensure_newline_at_eof_on_save": true,
-	"font_face": "Fira Code",
-	"font_options":
-    [
-        "gray_antialias",
+    "font_face": "Fira Code",
+    "font_options": [
         "subpixel_antialias",
         "ss01",
         "ss02",
         "ss03",
-        "ss05",
-        // "ss08"
+        "ss05"
     ],
-	"ignored_packages":
-	[
+    "font_size": 12,
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "indent_guide_options": [
+        "draw_normal",
+        "draw_active"
+    ],
+    "ignored_packages": [
         "LSP-vue",
         "Rust",
         "SublimeLinter-phpcs",
         "Vintage",
     ],
-	"highlight_line": true,
-    "highlight_modified_tabs": true,
-    "indent_guide_options":
-    [
-        "draw_normal",
-        "draw_active"
-    ],
-    "index_exclude_patterns":
-    [
-        "node_modules/*"
+    "index_exclude_patterns": [
+        "*.log",
+        "*.sublime-project"
     ],
     "line_padding_bottom": 2,
     "line_padding_top": 2,
     "margin": 0,
     "overlay_scroll_bars": "enabled",
+    "preview_on_click": "only_left",
+    "selection_description_column_type": "real",
     "show_encoding": true,
     "show_project_first": true,
     "show_tab_close_buttons": true,
-    // "show_tab_navigation": false,
-	"theme": "GitHub Dimmed.sublime-theme",
-	"theme_font_options":
-    [
+    "enable_tab_scrolling": false,
+    "theme": "GitHub Dimmed.sublime-theme",
+    "theme_font_options": [
         "subpixel_antialias",
         "ss01",
         "ss02",
@@ -54,19 +55,12 @@
         "ss05"
     ],
     "translate_tabs_to_spaces": true,
+    "trim_automatic_white_space": true,
     "trim_trailing_white_space_on_save": "all",
-    // "ui_separator": true,
-    // "ui_wide_scrollbars": true,
+    "trim_only_modified_white_space": false,
     "word_wrap": true,
-    "rulers":
-    [
+    "rulers": [
         120
     ],
-    "font_size": 12,
-    "added_words":
-    [
-		"cacheable"
-    ],
-    "selection_description_column_type": "real",
-    "preview_on_click": "only_left",
+    // "tab_completion": false
 }

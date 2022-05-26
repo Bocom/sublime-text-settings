@@ -14,6 +14,8 @@
 
     { "keys": ["ctrl+k", "ctrl+c"], "command": "show_at_center" },
 
+    { "keys": ["alt+f12"], "command": "goto_definition" },
+
     // JsPrettier
     { "keys": ["shift+alt+f"], "command": "js_prettier" },
 
@@ -25,6 +27,11 @@
     },
     {
         "keys": ["alt+`"], "command": "toggle_terminus_panel"
+    },
+
+    // Termiplus
+    {
+        "keys": ["ctrl+alt+`"], "command": "termiplus_open_project_path"
     },
 
     // LSP
@@ -153,6 +160,11 @@
     { "keys": ["ctrl+shift+equals"], "command": "nothing" },
 
     { "keys": ["ctrl+k", "ctrl+d"], "command": "find_under_expand_skip" },
+    { "keys": ["alt+backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"} },
+    { "keys": ["ctrl+shift+backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to BOL.sublime-macro"} },
+    { "keys": ["ctrl+alt+n"], "command": "clone_file" },
+    { "keys": ["ctrl+alt+]"], "command": "reindent" },
+    { "keys": ["ctrl+shift+r"], "command": "goto_symbol_in_project" },
 
     { "keys": ["alt+r"], "command": "refresh_folder_list", "context":
         [

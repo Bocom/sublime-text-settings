@@ -2,6 +2,7 @@
 !.gitignore
 !User/
 !FileIcons/
+!Termiplus/
 *.sublime-license
 *.sublime_license
 

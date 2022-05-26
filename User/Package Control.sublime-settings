@@ -9,20 +9,24 @@
 		"Dockerfile Syntax Highlighting",
 		"DotENV",
 		"EditorConfig",
+		"Emmet2",
 		"FileIcons",
 		"FileIcons Mono",
 		"FileManager",
 		"Gettext",
 		"GitHub Theme",
 		"INI",
+		"JSON Reindent",
 		"JsPrettier",
 		"Laravel Blade Highlighter",
 		"LSP",
 		"LSP-dockerfile",
+		"LSP-css",
 		"LSP-intelephense",
 		"LSP-json",
 		"LSP-pyright",
 		"LSP-tailwindcss",
+		"LSP-rust-analyzer",
 		"LSP-typescript",
 		"LSP-volar",
 		"LSP-vue",
@@ -52,6 +56,7 @@
 	],
 	"repositories":
 	[
-		"https://github.com/sublimelsp/LSP-tailwindcss"
+		"https://github.com/sublimelsp/LSP-tailwindcss",
+		"https://github.com/emmetio/sublime-text-plugin/releases/latest/download/registry.json"
 	],
 }
