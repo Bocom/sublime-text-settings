@@ -52,10 +52,8 @@
 	"channels":
 	[
 		"https://packagecontrol.io/channel_v3.json",
-		"https://github.com/sublimelsp/LSP-tailwindcss"
 	],
 	"repositories":
 	[
-		"https://github.com/sublimelsp/LSP-tailwindcss"
 	],
 }
