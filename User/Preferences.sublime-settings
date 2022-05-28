@@ -29,6 +29,7 @@
     "ignored_packages": [
         "LSP-vue",
         "Rust",
+        "SublimeLinter",
         "SublimeLinter-phpcs",
         "Vintage",
     ],

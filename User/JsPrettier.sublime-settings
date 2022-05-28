@@ -1,0 +1,9 @@
+// Settings in here override those in "/JsPrettier/JsPrettier.sublime-settings",
+{
+	"auto_format_on_save": false,
+	"auto_format_on_save_excludes": [
+		"*/node_modules/*"
+	],
+	"auto_format_on_save_requires_prettier_config": true,
+	"allow_inline_formatting": true,
+}

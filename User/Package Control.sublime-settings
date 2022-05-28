@@ -3,6 +3,7 @@
 	"installed_packages":
 	[
 		"ApacheConf",
+		"BracketHighlighter",
 		"ColorHelper",
 		"Debugger",
 		"DiffTabs",
@@ -22,6 +23,7 @@
 		"LSP",
 		"LSP-css",
 		"LSP-dockerfile",
+		"LSP-file-watcher-chokidar",
 		"LSP-intelephense",
 		"LSP-json",
 		"LSP-pyright",
