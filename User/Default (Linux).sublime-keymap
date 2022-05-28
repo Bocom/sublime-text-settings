@@ -54,6 +54,13 @@
             { "key": "setting.is_widget", "operator": "equal", "operand": false }
         ]
     },
+
+    { "keys": ["ctrl+q"], "command": "toggle_record_macro" },
+    { "keys": ["ctrl+shift+q"], "command": "run_macro" },
+
+    { "keys": ["f11"], "command": "nothing" },
+    { "keys": ["shift+f11"], "command": "nothing" },
+
     // { "keys": ["ctrl+alt+q"], "command": "exit" },
 
     // Plugin: JsPrettier
