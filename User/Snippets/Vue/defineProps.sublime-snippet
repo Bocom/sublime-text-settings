@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:const props = }defineProps<{
+  $2
+}>();
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>dP</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.ts.embedded.html</scope>
+</snippet>
