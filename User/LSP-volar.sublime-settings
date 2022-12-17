@@ -1,2 +1,13 @@
 // Settings in here override those in "LSP-volar/LSP-volar.sublime-settings"
-{}
+{
+    "settings": {
+        "volar.autoCompleteRefs": false,
+        "volar.autoWrapParentheses": true,
+        "volar.codeLens.pugTools": false,
+        "volar.codeLens.references": true,
+        "volar.codeLens.scriptSetupTools": false,
+        "volar.completion.preferredAttrNameCase": "kebab",
+        "volar.completion.preferredTagNameCase": "pascal"
+    },
+    "enabled": false,
+}
