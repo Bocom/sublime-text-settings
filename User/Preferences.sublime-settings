@@ -61,7 +61,7 @@
     "trim_automatic_white_space": true,
     "trim_trailing_white_space_on_save": "all",
     "trim_only_modified_white_space": false,
-    "update_check": false,
+    "update_check": true,
     "word_wrap": true,
     "rulers": [
         120
