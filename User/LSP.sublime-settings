@@ -16,7 +16,7 @@
 	"document_highlight_style": "underline",
 	"inhibit_snippet_completions": true,
 	"inhibit_word_completions": true,
-	"semantic_highlighting": true,
+	"semantic_highlighting": false,
 	"show_code_lens": "phantom",
 	"show_diagnostics_count_in_view_status": true,
 	"show_diagnostics_panel_on_save": 0,
