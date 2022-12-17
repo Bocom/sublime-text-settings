@@ -28,6 +28,7 @@
     ],
     "ignored_packages": [
         "LSP-vue",
+        "NeoVintageous",
         "Rust",
         "Six",
         "SublimeLinter",
