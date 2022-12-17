@@ -27,6 +27,7 @@
         "draw_active"
     ],
     "ignored_packages": [
+        "LSP-file-watcher-chokidar",
         "LSP-vue",
         "NeoVintageous",
         "Rust",
