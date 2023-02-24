@@ -23,6 +23,7 @@
 		"JsPrettier",
 		"Laravel Blade Highlighter",
 		"LSP",
+		"LSP-copilot",
 		"LSP-css",
 		"LSP-dockerfile",
 		"LSP-eslint",

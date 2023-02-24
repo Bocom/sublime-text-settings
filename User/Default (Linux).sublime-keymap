@@ -189,4 +189,42 @@
             },
         ]
     },
+
+    // Plugin: Copilot
+    {
+        "keys": ["alt+c", "alt+a"],
+        "command": "copilot_accept_completion",
+        "context": [
+            {
+                "key": "setting.copilot.completion.is_visible"
+            }
+        ]
+    },
+    {
+        "keys": ["alt+c", "alt+r"],
+        "command": "copilot_reject_completion",
+        "context": [
+            {
+                "key": "setting.copilot.completion.is_visible"
+            }
+        ]
+    },
+    {
+        "keys": ["alt+c", "alt+s"],
+        "command": "copilot_next_completion",
+        "context": [
+            {
+                "key": "setting.copilot.completion.is_visible"
+            }
+        ]
+    },
+    {
+        "keys": ["alt+c", "alt+w"],
+        "command": "copilot_previous_completion",
+        "context": [
+            {
+                "key": "setting.copilot.completion.is_visible"
+            }
+        ]
+    },
 ]
