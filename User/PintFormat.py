@@ -15,13 +15,18 @@ class PintFormatCommand(sublime_plugin.EventListener):
 
         folder = view.window().folders()[0]
 
-        pint = f'{folder}/vendor/bin/pint'
+        pint = os.path.normpath(f'{folder}/vendor/bin/pint')
         if not os.path.exists(pint):
             return
 
-        args = [pint]
+        args = []
 
-        pint_conf = f'{folder}/pint.json'
+        if os.name == 'nt':
+            pint += '.bat'
+
+        args.append(pint)
+
+        pint_conf = os.path.normpath(f'{folder}/pint.json')
         if os.path.exists(pint_conf):
             args.append('--config')
             args.append(pint_conf)
@@ -30,4 +35,7 @@ class PintFormatCommand(sublime_plugin.EventListener):
 
         print("Formatting file", filename)
 
-        subprocess.run(args)
+        if os.name == 'nt':
+            subprocess.run(args, creationflags=subprocess.CREATE_NO_WINDOW)
+        else:
+            subprocess.run(args)
