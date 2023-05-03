@@ -15,6 +15,17 @@
     { "keys": ["alt+backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"} },
     { "keys": ["ctrl+shift+backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to BOL.sublime-macro"} },
     { "keys": ["ctrl+alt+]"], "command": "reindent" }, // å
+    {
+        "keys": ["f2"],
+        "command": "emmet_rename_tag",
+        "context": [
+            {
+                "key": "selector",
+                "operator": "equal",
+                "operand": "meta.tag.other.html, meta.tag.block.any.html, entity.name.tag.template.html, meta.tag.inline.form.html"
+            }
+        ]
+    },
 
     // View manipulation
     { "keys": ["ctrl+k", "ctrl+c"], "command": "show_at_center" },

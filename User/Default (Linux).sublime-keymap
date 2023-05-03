@@ -17,6 +17,17 @@
     { "keys": ["ctrl+alt+]"], "command": "reindent" }, // å
     { "keys": ["ctrl+'"], "command": "toggle_comment", "args": { "block": false } },
     { "keys": ["ctrl+shift+'"], "command": "toggle_comment", "args": { "block": true } },
+    {
+        "keys": ["f2"],
+        "command": "emmet_rename_tag",
+        "context": [
+            {
+                "key": "selector",
+                "operator": "equal",
+                "operand": "meta.tag.other.html, meta.tag.block.any.html, entity.name.tag.template.html, meta.tag.inline.form.html"
+            }
+        ]
+    },
 
     // View manipulation
     { "keys": ["ctrl+k", "ctrl+c"], "command": "show_at_center" },
