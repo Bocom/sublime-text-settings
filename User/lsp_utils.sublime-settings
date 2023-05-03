@@ -1,0 +1,8 @@
+// Settings in here override those in "lsp_utils/lsp_utils.sublime-settings"
+{
+    "nodejs_runtime": [
+        "local",
+        "system"
+    ],
+    "local_use_electron": true,
+}
