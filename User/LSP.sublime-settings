@@ -22,4 +22,5 @@
 	"show_diagnostics_panel_on_save": 0,
 	"show_diagnostics_severity_level": 4,
 	"show_references_in_quick_panel": false,
+	"show_inlay_hints": true,
 }
