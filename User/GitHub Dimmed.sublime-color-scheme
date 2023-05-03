@@ -10,6 +10,13 @@
 		{
 			"scope": "meta.semantic-token",
 			"background": "#00000101",
-		}
+		},
+        {
+            "name": "Better Find Buffer - File name",
+            "scope": "entity.name.filename.find-in-files",
+            "foreground": "#cdd9e5",
+            "background": "color(#6cb6ff alpha(0.3))",
+            "font_style": "bold"
+        },
 	],
 }
