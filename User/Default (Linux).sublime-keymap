@@ -24,7 +24,7 @@
             {
                 "key": "selector",
                 "operator": "equal",
-                "operand": "meta.tag.other.html, meta.tag.block.any.html, entity.name.tag.template.html, meta.tag.inline.form.html"
+                "operand": "meta.tag.other.html, meta.tag.block.any.html, entity.name.tag.template.html, meta.tag.inline.form.html, meta.tag.structure.any.html, meta.tag.inline.any.html"
             }
         ]
     },
