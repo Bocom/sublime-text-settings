@@ -27,15 +27,13 @@
         "draw_active"
     ],
     "ignored_packages": [
+        "LSP-copilot",
         "LSP-file-watcher-chokidar",
-        "LSP-vue",
         "NeoVintageous",
         "Rust",
-        "Six",
         "SublimeLinter",
         "SublimeLinter-phpcs",
         "Vintage",
-        "Vintageous",
     ],
     "index_exclude_patterns": [
         "*.log",
