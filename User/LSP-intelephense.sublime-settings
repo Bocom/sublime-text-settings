@@ -60,6 +60,7 @@
             "Phar",
             "posix",
             "pspell",
+            "random",
             "readline",
             "Reflection",
             "session",
@@ -87,11 +88,6 @@
             "Zend OPcache",
             "zip",
             "zlib"
-        ],
-        "intelephense.files.association": [
-            "*.php",
-            "*.inc",
-            "*.blade.php",
         ],
     }
 }
