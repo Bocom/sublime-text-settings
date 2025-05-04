@@ -4,5 +4,5 @@
         "local",
         "system"
     ],
-    "local_use_electron": true,
+    "local_use_electron": false,
 }
