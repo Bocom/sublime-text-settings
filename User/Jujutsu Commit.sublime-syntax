@@ -1,0 +1,82 @@
+%YAML 1.2
+---
+name: Jujutsu Commit Message
+scope: text.jj.commit-message
+version: 2
+
+file_extensions:
+  - jjdescription
+
+variables:
+  comment_char: 'JJ:'
+
+contexts:
+  main:
+    - include: comments
+    - match: ^\s*(?=\S)
+      set: commit-subject
+
+###[ COMMENTS ]################################################################
+
+  comments:
+    - match: ^{{comment_char}}
+      scope: punctuation.definition.comment.jj.commit
+      push: comment-content
+
+  comment-content:
+    - meta_scope: comment.line.jj.commit
+    - match: $\n?
+      pop: 1
+
+  nested-comments:
+    - match: ^{{comment_char}}
+      scope: punctuation.definition.comment.jj.commit
+      push: nested-comment-content
+
+  nested-comment-content:
+    - clear_scopes: 1  # remove `meta.message.jj.commit`
+    - meta_scope: comment.line.jj.commit
+    - include: comment-content
+
+###[ COMMIT MESSAGE ]##########################################################
+
+  commit-subject:
+    # first none empty none comment line is commit subject
+    - meta_scope: meta.subject.jj.commit markup.heading.subject.jj.commit
+    - match: $\n?
+      set: commit-separator
+    - include: jj Common.sublime-syntax#references
+
+  commit-separator:
+    # empty line between subject and message
+    - include: comments
+    - match: \n
+      set: commit-message
+    - match: \S.*
+      scope: invalid.illegal.empty-line-expected.jj.commit
+
+  commit-message:
+    - meta_scope: meta.message.jj.commit
+    - include: nested-comments
+    - include: change-id-trailers
+    - include: common-trailers
+    - include: jj Common.sublime-syntax#references
+
+  # for Gerrit Code Review
+  change-id-trailers:
+    - match: ^\s*((?i:Change-Id))\s*(:)\s*(.*)
+      captures:
+        1: keyword.other.trailer.jj.commit
+        2: punctuation.separator.key-value.jj.commit
+        3: constant.language.change-id.jj.commit
+
+  common-trailers:
+    # Acked-by: ...
+    # Co-authored-by: ...
+    # Helped-by: ...
+    # Signed-off-by: ...
+    # ...
+    - match: ^\s*((?i:[a-z][-0-9a-z]{2,15}[0-9a-z]-by|See-also))\s*(:)
+      captures:
+        1: keyword.other.trailer.jj.commit
+        2: punctuation.separator.key-value.jj.commit
