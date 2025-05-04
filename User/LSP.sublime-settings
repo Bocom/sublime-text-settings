@@ -4,12 +4,11 @@
 		"rust-analyzer": {
 			"enabled": true,
 		},
-		"LSP-tailwindcss": {
+		"gleam": {
 			"enabled": true,
-		},
-		"LSP-vue": {
-			"enabled": false,
-		},
+			"command": ["gleam", "lsp"],
+			"selector": "source.gleam"
+		}
 	},
 	"diagnostics_gutter_marker": "sign",
 	"diagnostics_panel_include_severity_level": 2,
