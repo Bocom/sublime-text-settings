@@ -6,10 +6,14 @@
 		},
 		"gleam": {
 			"enabled": true,
-			"command": ["gleam", "lsp"],
+			"command": [
+				"gleam",
+				"lsp"
+			],
 			"selector": "source.gleam"
 		}
 	},
+	"lsp_format_on_save": false,
 	"diagnostics_gutter_marker": "sign",
 	"diagnostics_panel_include_severity_level": 2,
 	"document_highlight_style": "underline",

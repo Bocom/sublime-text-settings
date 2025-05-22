@@ -37,6 +37,7 @@
 		"LSP-intelephense",
 		"LSP-json",
 		"LSP-rust-analyzer",
+		"LSP-stylelint",
 		"LSP-tailwindcss",
 		"LSP-typescript",
 		"LSP-vue",

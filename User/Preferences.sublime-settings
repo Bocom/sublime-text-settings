@@ -27,8 +27,10 @@
         "draw_active"
     ],
     "ignored_packages": [
+        "JsPrettier",
         "LSP-copilot",
         "LSP-file-watcher-chokidar",
+        "LSP-stylelint",
         "NeoVintageous",
         "Rust",
         "SublimeLinter",
@@ -81,4 +83,5 @@
         ".Trash-*",
         ".jj"
     ],
+    "index_files": true,
 }

@@ -5,6 +5,7 @@
 !Termiplus/
 *.sublime-license
 *.sublime_license
+.DS_Store
 
 User/Package Control.last-run
 User/Package Control.ca-list
